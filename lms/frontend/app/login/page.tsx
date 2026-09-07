@@ -51,7 +51,7 @@ export default function LoginPage() {
         <div className="bg-white rounded-3xl p-8 shadow-xl shadow-slate-200/50 border border-slate-100">
           
           {/* Role Selection Tabs */}
-          <div className="bg-slate-100/80 p-1.5 rounded-2xl flex items-center justify-between mb-6">
+          <div className="bg-slate-100/70 p-1.5 rounded-2xl flex items-center justify-between mb-6">
             <button
               type="button"
               onClick={() => setRoleTab("student")}
