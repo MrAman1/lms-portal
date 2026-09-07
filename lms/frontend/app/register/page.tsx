@@ -65,7 +65,7 @@ export default function RegisterPage() {
               ))}
             </div>
           </div>
-          {error && <p className="text-sm text-red-600">{error}</p>}
+          {error && <p className="text-sm text-red-590">{error}</p>}
           <button className="btn-primary w-full" disabled={loading}>
             {loading ? "Creating account..." : "Create account"}
           </button>
