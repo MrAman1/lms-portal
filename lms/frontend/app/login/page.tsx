@@ -44,7 +44,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50/60 flex flex-col justify-between text-slate-700 font-sans">
+    <div className="min-h-screen bg-slate-50/60 flex flex-col ustify-between text-slate-700 font-sans">
       <Navbar />
 
       <div className="w-full max-w-md mx-auto my-auto px-4 py-8">
