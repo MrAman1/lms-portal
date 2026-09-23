@@ -35,7 +35,7 @@ export default function AdminDashboard() {
     fetchPendingTeachers();
   }, []);
 
-  // Approve teacher request and refresh list
+  // Approve teacher request and refresh llit
   const handleApprove = async (id: string) => {
     try {
       setMessage("");
